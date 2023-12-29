@@ -1,0 +1,45 @@
+/* MovieCard.css */
+  .movie-card {
+    padding: 8px;
+    width: 280px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movie-poster {
+    width: 100%;
+    height: auto; /* Allows the image to adjust its height based on aspect ratio */
+    display: block;
+    border-radius: 8px;
+  }
+  
+  .movie-details {
+    padding: 20px;
+    flex-grow: 1; /* Allows the details section to grow as needed */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movie-title {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 5rem;
+  }
+  
+  .movie-overview {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }

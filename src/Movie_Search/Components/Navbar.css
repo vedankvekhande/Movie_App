@@ -1,0 +1,32 @@
+.header{
+    margin:1rem;
+    color:#E50914;
+    font-size:35px;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+
+.genretabs{
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+    overflow-x: scroll;
+}
+
+.genretabs li button{
+    background-color:grey;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border:none;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+.genretabs li button.-active{
+    background-color:#E50914;
+}
