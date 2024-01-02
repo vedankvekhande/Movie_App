@@ -1,5 +1,5 @@
 <h1 align="center">MovieFlix</h1>
-MovieFlix is a React-based movie website that allows users to search for movies by title, sort them by genre, view trending and upcoming movies, and bookmark their favorite movies. The website is designed to be user-friendly and visually appealing.
+MovieFlix is a React-based movie website that allows users to search for movies by title, sort them by multiple genres, display movie as a cards and provides infinite scrolling in dual direction. The website is designed to be user-friendly and visually appealing.
 <hr/>
 
 <img width="840" alt="react-movie-screen" src="https://github.com/vedankvekhande/Movie_App/assets/30791618/852777b2-9303-4cd9-aae2-7799a3fabbe6">
@@ -61,9 +61,6 @@ Note: Ensure that you have carefully added the TMDB API key and Firebase authent
 # 🍿 Demo 
 
 - Check out our live demo at https://movie-app-ymkw.vercel.app/ 
- 
-
-https://github.com/tushar-2223/BlueBird-Movies/assets/87109400/2c13988f-d058-456b-a2e3-f3b716646fe6
 
 
 
