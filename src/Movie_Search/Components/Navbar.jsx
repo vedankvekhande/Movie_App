@@ -2,9 +2,13 @@ import React, { useState, useEffect } from 'react';
 import '../Components/Navbar.css'; // Assuming you have a CSS file for styling
 
 
-const Navbar = ({ onGenreSelect }) => {
+const Navbar = ({ onGenreSelect,currYear,onSearch }) => {
   const [genres, setGenres] = useState([]);
   const [genreNameList,setGenreNameList] = useState(['all'])
+  const handleSearch = (event) => {
+    const query = event.target.value;
+    onSearch(query);
+  }
   useEffect(() => {
     fetchGenreList();
   }, []);
@@ -48,7 +52,12 @@ const Navbar = ({ onGenreSelect }) => {
 
   return (
     <div className='main-navbar'>
+      <div style={{display:'flex',alignItems:'center',marginRight:'3%',height:'65px',width: '-webkit-fill-available'}}>
       <div className='header'>MOVIEFIX</div>
+     
+      {/* <h2 style={{margin:'auto'}}>Displaying for year : {currYear}</h2> */}
+      <input  type="text" placeholder="Search movies..." onChange={handleSearch} style={{marginLeft:'auto'}}/>
+      </div>
       <div className='genres'>
         <ul className='genretabs'>
           {/* Render "All" button */}

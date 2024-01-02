@@ -14,10 +14,12 @@ import reportWebVitals from './reportWebVitals';
 // import Cart from './E-Commerce/Pages/Cart'
 import Navbar from './Movie_Search/Components/Navbar';
 import MovieApp from './Movie_Search/Pages/MovieApp';
+// import CurrencyConverter from './CryptoConverter/CurrencyConverter';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
     <MovieApp/>
+    {/* <CurrencyConverter/> */}
     </>
     // <BrowserRouter>
     // <Navbar/>

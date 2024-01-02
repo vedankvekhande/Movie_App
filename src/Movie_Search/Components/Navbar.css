@@ -7,26 +7,80 @@
 }
 
 .genretabs{
-    padding: 14px;
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
     list-style: none;
-    overflow-x: scroll;
+    padding: 0;
+    gap: 15px;
+    margin-top: 0;
 }
 
 .genretabs li button{
     background-color:grey;
     color: white;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 500;
-    border:none;
-    height: 2rem;
-    width: 8rem;
-    border-radius: 7%;
+    border: none;
+    height: 28px;
+    padding-inline: 15px;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 8%;
     cursor: pointer;
 }
 
 .genretabs li button.-active{
     background-color:#E50914;
 }
+
+.main-navbar{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: white;
+        padding-left: 12px;
+        /* Add more styles as needed */
+        background-color: #000;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+input{
+    height: 18px;
+    width: 220px;
+}
+
+.main-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  
+
+  /* Styles for Netflix-like search bar */
+input[type='text'] {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 250px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input[type='text']:focus {
+    outline: none;
+    background-color: #444;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+ 
+  
+  
