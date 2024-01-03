@@ -53,7 +53,7 @@ const Navbar = ({ onGenreSelect,currYear,onSearch }) => {
   return (
     <div className='main-navbar'>
       <div style={{display:'flex',alignItems:'center',marginRight:'3%',height:'65px',width: '-webkit-fill-available'}}>
-      <div className='header'>MOVIEFIX</div>
+      <div className='header'>MOVIEFLIX</div>
      
       {/* <h2 style={{margin:'auto'}}>Displaying for year : {currYear}</h2> */}
       <input  type="text" placeholder="Search movies..." onChange={handleSearch} style={{marginLeft:'auto'}}/>

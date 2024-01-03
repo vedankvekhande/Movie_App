@@ -33,7 +33,7 @@ background: #000; /* Fallback color */
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: min(5%, 60px); /* Using min() to maintain a minimum fixed gap while scaling with percentage */
   justify-items: center;
-  margin-top: 250px; /* Example percentage-based margin */
+  margin-top: 220px; /* Example percentage-based margin */
   margin-right: 50px;
   margin-left: 35px;
 }
@@ -47,5 +47,9 @@ background: #000; /* Fallback color */
     overflow-x: hidden; /* Prevent horizontal scrollbar */
   }
   
- 
+ .spinner-bottom{
+  position: fixed;
+  bottom: 8px;
+  left: 50%;
+ }
   

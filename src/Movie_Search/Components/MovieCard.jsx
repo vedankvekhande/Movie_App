@@ -33,7 +33,7 @@ const MovieCard = ({ movie }) => {
 
   return (
     <div className="movie-card">
-      <div className="rating-circle">{movie.vote_average}</div>
+      <div className="rating-circle">{movie.vote_average.toFixed(1)}</div>
       <img className="movie-poster" src={movie.poster_path ? `https://image.tmdb.org/t/p/w200/${movie.poster_path}` : 'https://via.placeholder.com/200x300'} onError={handleImageError} alt={movie.title} />
       <h2 className="movie-title">{movie.title}</h2>
       <div className="movie-details">
