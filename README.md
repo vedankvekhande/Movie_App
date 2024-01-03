@@ -1,5 +1,5 @@
 <h1 align="center">MovieFlix</h1>
-MovieFlix is a Simple React-based movie web application built in react library that allows users to search for movies by title, sort them by multiple genres, display movie as a cards and provides infinite scrolling in dual direction. The website is designed to be user-friendly , responsive designed and visually appealing.
+MovieFlix is a Simple React-based movie web application almost a Netflix Clone built in react library that allows users to search for movies by title, sort them by multiple genres, display movie as a cards and provides infinite scrolling in dual direction. The website is designed to be user-friendly , responsive designed and visually appealing.
 <hr/>
 
 <img width="840" alt="react-movie-screen" src="https://github.com/vedankvekhande/Movie_App/assets/30791618/852777b2-9303-4cd9-aae2-7799a3fabbe6">
@@ -41,20 +41,15 @@ Firstly, download the entire website code and extract the ZIP file to a folder o
 
 ## Step 2: Install and run the node dependencies.
 
-Open folder at 'myapp' from terminal and then install all node dependencies using 'npm install'.
+After extraction Open folder name 'MyApp' from terminal and then install all node dependencies using 'npm install'.
 
 
 ## Step 3: Run the Website
 
-Open your code editor (such as VS Code) and navigate to the project directory. Then, open a terminal and run the following command:
+After 'npm install' command is finished in terminal , type 'npm start' command and this should open browser tab automatically.
+This will start the application. Open a web browser and navigate to http://localhost:3000 to access the website if not opened by deafult.
 
-```bash
-npm run dev
-```
-This will start the application. Open a web browser and navigate to http://localhost:3000 to access the website.
-
-Note: Ensure that you have carefully added the TMDB API key and Firebase authentication configuration to your .env file. If the .env file is not working, add all the API keys and configuration manually.
-
+note :- In case of any doubt feel free to contact me!
 <hr/>
 
 # 🍿 Demo 
