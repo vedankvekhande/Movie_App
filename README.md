@@ -1,5 +1,5 @@
 <h1 align="center">MovieFlix</h1>
-MovieFlix is a React-based movie website that allows users to search for movies by title, sort them by multiple genres, display movie as a cards and provides infinite scrolling in dual direction. The website is designed to be user-friendly and visually appealing.
+MovieFlix is a Simple React-based movie web application built in react library that allows users to search for movies by title, sort them by multiple genres, display movie as a cards and provides infinite scrolling in dual direction. The website is designed to be user-friendly , responsive designed and visually appealing.
 <hr/>
 
 <img width="840" alt="react-movie-screen" src="https://github.com/vedankvekhande/Movie_App/assets/30791618/852777b2-9303-4cd9-aae2-7799a3fabbe6">
@@ -10,9 +10,8 @@ MovieFlix is a React-based movie website that allows users to search for movies 
 
 - Search and watch movies: users can search for movies by title and can watch them easily
 - Genre-wise display: movies can be sorted by genre including multiple genre sorting
-- Infinite Scrolling: displays a section for trending movies
-- Upcoming movies: displays a section for upcoming movies
-- Movie Details: users can view detailed information about each movie
+- Infinite Scrolling: Provides ability to load movies of previous year and next year once user scrolls in any direction.
+- Movie Details: users can view detailed information about each movie , along with genre , director , etc from TMDB API.
 - Ratings: The Cards also feature the latest Movie ratings for ease. 
 
 <hr/>
