@@ -35,6 +35,9 @@ const MovieApp = () => {
           setMovies((prev) => [...prev, ...data.results]);
           setLoading(false);
         } else {
+          window.scrollTo({
+            top: window.scrollY + 2200,
+          });
           setMovies((prev) => [...data.results, ...prev]);
           setLoading(false);
         }
