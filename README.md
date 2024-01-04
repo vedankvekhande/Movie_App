@@ -1,5 +1,5 @@
 <h1 align="center">MovieFlix</h1>
-MovieFlix is a Simple React-based movie web application almost a Netflix Clone built in react library that allows users to search for movies by title, sort them by multiple genres, display movie as a cards and provides infinite scrolling in dual direction. The website is designed to be user-friendly , responsive designed and visually appealing.It displays a list of movies from The Movie Database (TMDb) API. The app shows top movies for each year sorted by popularity and users can filter by multiple genres, the app also loads top movies from previous / next years as the user scrolls through the list.The application is also hosted on live server , it can be accessed from here https://movie-app-ymkw.vercel.app/ 
+MovieFlix is a Simple React-based movie web application almost a Netflix Clone built in react library that allows users to search for movies by title, sort them by multiple genres, display movie as a cards and provides infinite scrolling in dual direction. The website is designed to be user-friendly , responsive designed and visually appealing.It displays a list of movies from The Movie Database (TMDb) API. The app displays top movies for each year sorted by popularity and users can filter by multiple genres, the app also loads top movies from previous / next years as the user scrolls through the list.The application is also hosted on live server , it can be accessed from here https://movie-app-ymkw.vercel.app/ 
 <hr/>
 
 <img width="840" alt="react-movie-screen" src="https://github.com/vedankvekhande/Movie_App/assets/30791618/852777b2-9303-4cd9-aae2-7799a3fabbe6">
@@ -50,7 +50,7 @@ After extraction Open folder name 'MyApp' from terminal and then install all nod
 ## Step 3: Run the Website
 
 After 'npm install' command is finished in terminal , type 'npm start' command and this should open browser tab automatically.
-This will start the application. Open a web browser and navigate to http://localhost:3000 to access the website if not opened by deafult.
+This will start the application. Open a web browser and navigate to http://localhost:3000 to access the website if not opened by default.
 
 note :- In case of any doubt feel free to contact me!
 <hr/>
