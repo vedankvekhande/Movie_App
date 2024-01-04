@@ -1,4 +1,4 @@
-<h1 align="center">MovieFlix</h1>
+<h1 align="center">🍿MovieFlix🍿</h1>
 MovieFlix is a Simple React-based movie web application almost a Netflix Clone built in react library that allows users to search for movies by title, sort them by multiple genres, display movie as a cards and provides infinite scrolling in dual direction. The website is designed to be user-friendly , responsive designed and visually appealing.It displays a list of movies from The Movie Database (TMDb) API. The app displays top movies for each year sorted by popularity and users can filter by multiple genres, the app also loads top movies from previous / next years as the user scrolls through the list.The application is also hosted on live server , it can be accessed from here https://movie-app-ymkw.vercel.app/ 
 <hr/>
 
