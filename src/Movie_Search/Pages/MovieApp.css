@@ -3,8 +3,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Styles for Netflix-like background */
-
 body{
 width: 100vw;
 min-height: 100vh;
@@ -15,12 +13,10 @@ color: var(--light);
 font-family: Arial, Helvetica, sans-serif;
 box-sizing: border-box;
 line-height: 1.4;
-
-background: #000; /* Fallback color */
-  background: linear-gradient(to bottom, #000 0%, #202020 100%);
-  color: #fff;
-  font-family: Arial, sans-serif;
-  
+background: #000; 
+background: linear-gradient(to bottom, #000 0%, #202020 100%);
+color: #fff;
+font-family: Arial, sans-serif;  
 }
 
 .movie-container {
@@ -28,23 +24,21 @@ background: #000; /* Fallback color */
   padding-left: 4%;
   margin-bottom: 2%;
 }
+
 .movie-app-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: min(5%, 60px); /* Using min() to maintain a minimum fixed gap while scaling with percentage */
+  gap: min(5%, 60px); 
   justify-items: center;
-  margin-top: 220px; /* Example percentage-based margin */
+  margin-top: 220px; 
   margin-right: 50px;
   margin-left: 35px;
 }
 
-
-
   body {
-    /* background: linear-gradient(to bottom, #111 70%, #000 100%); */
     margin: 0;
     font-family: Arial, sans-serif;
-    overflow-x: hidden; /* Prevent horizontal scrollbar */
+    overflow-x: hidden; 
   }
   
  .spinner-bottom{
@@ -53,3 +47,7 @@ background: #000; /* Fallback color */
   left: 50%;
  }
   
+ .No-results{
+ width: max-content ;
+ margin-left: 75vw 
+ }
