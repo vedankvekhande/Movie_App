@@ -41,7 +41,6 @@
         z-index: 1000;
         background-color: white;
         padding-left: 12px;
-        /* Add more styles as needed */
         background-color: #000;
         padding: 10px 20px;
         display: flex;
@@ -61,8 +60,6 @@ input{
     padding: 10px;
   }
   
-
-  /* Styles for Netflix-like search bar */
 input[type='text'] {
     padding: 10px 15px;
     border: none;
